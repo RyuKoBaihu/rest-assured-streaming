@@ -39,8 +39,6 @@ rest-assured-streaming/
 │
 ├── pom.xml                       # Maven dependencies (Rest Assured, Cucumber, JUnit)
 └── README.md
-
----
 ```
 ## 🚀 Getting Started
 
