@@ -16,17 +16,31 @@ It showcases a **scalable, maintainable, and recruiter-friendly framework** desi
 ---
 
 ## 📂 Project Structure
+
+## 📂 Project Structure
+
+```bash
 rest-assured-streaming/
-│── src/
-│ ├── test/java/
-│ │ ├── features/ # Cucumber feature files (BDD scenarios)
-│ │ ├── steps/ # Step Definitions (glue code)
-│ │ ├── runners/ # Cucumber test runners
-│ │ └── utils/ # Reusable utilities (API client, config, etc.)
-│── resources/
-│ ├── application.properties # API keys, baseURI, environment configs
-│── pom.xml # Maven dependencies (Rest Assured, Cucumber, etc.)
-│── README.md
+├── .github/
+│   └── workflows/
+│       └── ci.yml                # GitHub Actions workflow (CI/CD)
+│
+├── src/
+│   └── test/java/
+│       ├── features/             # Cucumber feature files (BDD scenarios)
+│       │   └── video_streaming.feature
+│       ├── steps/                # Step Definitions (glue code)
+│       │   └── VideoSteps.java
+│       ├── runners/              # Cucumber/JUnit runners
+│       │   └── TestRunner.java
+│       └── utils/                # Utility classes (Config, Helpers, etc.)
+│           └── Config.java
+│
+├── src/test/resources/
+│   └── application.properties    # API keys, base URI, video ID (not versioned)
+│
+├── pom.xml                       # Maven dependencies (Rest Assured, Cucumber, JUnit)
+└── README.md
 
 ---
 
