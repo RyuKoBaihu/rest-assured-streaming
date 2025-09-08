@@ -17,8 +17,6 @@ It showcases a **scalable, maintainable, and recruiter-friendly framework** desi
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```bash
 rest-assured-streaming/
 ├── .github/
@@ -43,7 +41,7 @@ rest-assured-streaming/
 └── README.md
 
 ---
-
+```
 ## 🚀 Getting Started
 
 ### Prerequisites
